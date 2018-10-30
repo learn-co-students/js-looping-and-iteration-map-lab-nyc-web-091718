@@ -1,0 +1,7 @@
+[1, 2, 3].map(function(num) {
+    return num * num;
+});
+// => [1, 4, 9]
+const equippedEngineers = newEngineers.map(function(eng) {
+    return Object.assign({}, eng, { equipment: 'Laptop' });
+});
